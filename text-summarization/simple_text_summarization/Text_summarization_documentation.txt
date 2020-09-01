@@ -1,0 +1,22 @@
+DOCUMENTATION OF MINOR PROJECT - TEXT SUMMARIZATION
+
+Purpose of Code in First Cell:
+	> From nltk module importing its libraries
+
+Purpose of Code in Second Cell:
+	> We create a dictionary for the word frequency table from the text in which stopwords are not part of the dictionary
+
+ Purpose of Code in Third Cell:
+	> We are using Term Frequency method to score each sentence that is, scoring a sentence by its words, adding the frequency of every non-stop word in a sentence
+
+Purpose of Code in Fourth Cell:
+	> Here, we are considering average score of the sentences as a threshold
+
+Purpose of Code in Fifth Cell:
+	> Here, we select a sentence for summarization such that the sentence score is more than the average score
+
+Purpose of Code in Sixth Cell:
+	> Here, we define a function to run all the above functions
+
+Purpose of Code in Seventh Cell:
+	> Finally, the main method and printing the result
